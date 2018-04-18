@@ -1,15 +1,14 @@
-#Quick change for github
 import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.pyplot as plt
-import pylab as pl
 import time
 from gpiozero import Button
+
 #Buttons
 yes = Button(17)
 no = Button(27)
 stats = Button(22)
-#Reset Counter
+
+#Reset Counters
 happy = 0
 unhappy = 0
 
